@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.word-list {
+  display: inline;
+}
+
+.word-list-item {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 5em;
+  display: inline;
+  margin: 0.2em;
+ border-bottom: 5px solid black;
+ /* text-decoration: underline; */
+}
+
+.no-word-list-item {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 5em;
+  display: inline;
+  margin: 0.2em;
+ border-bottom: 5px solid black;
 }
