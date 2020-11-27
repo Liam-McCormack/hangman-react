@@ -8,7 +8,7 @@ const Header = (props) => {
             <h1>Hangman on React!</h1>
             <h2>Guess the word</h2>
             <div>
-                <img src={hangman1} alt="empty gallows" />
+                <img src={hangman1} alt="empty gallows" width='200px' height='300px' />
             </div>
         </header>
     )

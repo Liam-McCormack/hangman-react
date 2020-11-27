@@ -1,14 +1,12 @@
-import React from 'react'
+// import React from 'react'
 import './App.css'
 import './App'
 
-const ChosenWord = ({ chosenWords }) => {
-    const word = chosenWords[Math.floor(Math.random() * chosenWords.length)]
-    const lowercaseWord = word.toLowerCase()
-    const wordArray = lowercaseWord.split('')
-
+const ChosenWord = (props) => {
+    const wordArray = props.wordArray
     return (
         <div>
+
             <ul class="word-list">
                 {wordArray.map(letter => {
                     return (

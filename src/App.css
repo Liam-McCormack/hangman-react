@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  
+  /* font-family: 'Syne Mono', monospace; */
+
 }
 
 .App-logo {
@@ -44,7 +45,7 @@
 }
 
 .word-list-item {
-  font-family: 'Courier New', Courier, monospace;
+
   font-size: 5em;
   display: inline;
   margin: 0.2em;
@@ -53,9 +54,22 @@
 }
 
 .no-word-list-item {
-  font-family: 'Courier New', Courier, monospace;
+
   font-size: 5em;
   display: inline;
   margin: 0.2em;
  border-bottom: 5px solid black;
+}
+
+.letter-list {
+ font-size: 2em;
+  display: inline;
+  /* margin: 0.2em; */
+  margin-top: 1em;
+}
+
+.letter-list-item {
+  display: inline;
+  margin: 0.1em;
+  cursor:pointer;
 }
